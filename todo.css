@@ -1,0 +1,44 @@
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.formBox {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.inputBox {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.listDiv {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    fo
+}
+
+#addButton:hover {
+    background-color: aqua;
+    color: white;
+}
+
+
